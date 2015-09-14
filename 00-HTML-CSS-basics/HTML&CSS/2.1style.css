@@ -1,0 +1,36 @@
+body {font-size: 14px;}
+
+.div {width: 960px;
+	margin: 0 auto 0 auto;
+	position: relative;}
+
+.header {position: center;
+		background-color: magenta;
+		font-size: 46px;
+		text-align: center;}
+
+.navigation {background-color: blue;
+			font-size: 12px;
+			float: left;
+			display: block;}
+
+.content {width: 800px; 
+		 float:center;
+  		 text-align: center;
+  		 font-size: 14px;
+  		 background-color: blue;}
+
+.footer {width: 960px;
+  		margin: 100px auto 0 auto;
+  		text-align: center;
+  		background-color: magenta;
+  		position: relative;
+  		font-size: 10px;}
+
+.sidebar {float: right;
+  		 width: 100px;
+  		 height: 170px;
+  		 background-color: magenta;
+  		 font-size: 10px;}
+
+.article {display: block;}
