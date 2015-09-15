@@ -1,0 +1,13 @@
+.head {text-align: center;}
+
+.body {text-align: center;}
+
+.p {font-size: 18px;
+
+	color: darkblue;}
+
+.highlighted {
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;}
