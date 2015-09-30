@@ -11,11 +11,14 @@
 	<div class="main" ng-controller="indexcontroller">
 		<h1>{{title}}</h1>
 
-		<div ng-repeat="movies in movies">
-			<p class="">
-				{{movies.name}}
-			</p>
-		</div>	
+		<div ng-repeat="movie in movies">
+			<button ng-click="viewD()">Details</button>
+			{{movie.name}}
+		</div>
+		<br>
+		<div ng-show="visibleD" ng-repeat="detail in details">
+			{{detail.director}}
+		</div>
 	</div>
 </body>
 </html>
