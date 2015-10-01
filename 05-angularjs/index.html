@@ -12,12 +12,15 @@
 		<h1>{{title}}</h1>
 
 		<div ng-repeat="movie in movies">
-			<button ng-click="viewD()">Details</button>
+			<button ng-click="viewDetails(movie.detailsId)">Details</button>
 			{{movie.name}}
 		</div>
 		<br>
-		<div ng-show="visibleD" ng-repeat="detail in details">
+		<div ng-show="visibleDetails">
 			{{detail.director}}
+			{{detail.year}}
+			{{detail.genre}}
+			{{detail.duration}}
 		</div>
 	</div>
 </body>
